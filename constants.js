@@ -109,9 +109,9 @@ export const LANGUAGES_URL = [
     //     url: getLanguageUrl("koreana"),
     // },
     // {
-    // language: "koreana",
-    // folder: "ko",
-    // url: getLanguageUrl("koreana"),
+    //     language: "koreana",
+    //     folder: "ko",
+    //     url: getLanguageUrl("koreana"),
     // },
     // {
     //     language: "spanish (Latin America)",
@@ -144,20 +144,15 @@ export const LANGUAGES_URL = [
     //     url: getLanguageUrl("romanian"),
     // },
     // {
-    //     language: "schinese_pw",
-    //     folder: "zh-CN",
-    //     url: getLanguageUrl("schinese_pw"),
-    // },
-    // {
     //     language: "swedish",
     //     folder: "sv",
     //     url: getLanguageUrl("swedish"),
     // },
-    // {
-    //     language: "tchinese",
-    //     folder: "zh-TW",
-    //     url: getLanguageUrl("tchinese"),
-    // },
+    {
+        language: "tchinese",
+        folder: "zh-TW",
+        url: getLanguageUrl("tchinese"),
+    },
     // {
     //     language: "thai",
     //     folder: "th",
@@ -173,9 +168,9 @@ export const LANGUAGES_URL = [
     //     folder: "uk",
     //     url: getLanguageUrl("ukrainian"),
     // },
-    // {
-    //     language: "vietnamese",
-    //     folder: "vi",
-    //     url: getLanguageUrl("vietnamese"),
-    // },
+    {
+        language: "vietnamese",
+        folder: "vi",
+        url: getLanguageUrl("vietnamese"),
+    }
 ];
