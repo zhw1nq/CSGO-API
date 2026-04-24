@@ -8,6 +8,9 @@ on:
     paths:
       - "public/docs/index.html"
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
